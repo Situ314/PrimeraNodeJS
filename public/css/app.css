@@ -59,10 +59,16 @@ img{
 	max-width: 100%;
 }
 
+.left{
+	text-align: center;
+	font-size: 2em;
+	margin-right: 20px;
+}
+/*
 nav {
 	text-align: right;
 }
-
+*/
 nav li{
 	display:inline-block;
 	margin-right: 1em;
@@ -70,12 +76,15 @@ nav li{
 }
 
 nav li a{
+
 	color: white;
 }
 
 nav li a:hover{
 	color: white;
 	}
+
+
 
 form.link{
 	display: inline-block;

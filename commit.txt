@@ -1,0 +1,11 @@
+commit 72dfda9cb4e419fd651bf23c25325528d67f67f7
+Author: Situ <cornamenta.l2@gmail.com>
+Date:   Fri Jan 20 12:46:14 2017 -0400
+
+    agregue un comentario2
+
+commit da502df87e6a9a69676eec2b04bf02c90b0d4a81
+Author: Situ <cornamenta.l2@gmail.com>
+Date:   Fri Jan 20 12:30:35 2017 -0400
+
+    Inicio con GIT
