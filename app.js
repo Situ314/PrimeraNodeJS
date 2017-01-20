@@ -6,6 +6,8 @@ var formidable = require("express-formidable");
 var RedisStore = require("connect-redis")(session);
 var http = require("http");
 var realtime = require("./realtime");
+
+//PRUEBA GIT
 //con Cookies
 //var cookieSession = require("cookie-session");
 var routes_app = require("./routes_app");
