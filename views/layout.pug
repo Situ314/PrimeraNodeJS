@@ -1,0 +1,18 @@
+html
+	head
+		title Foto Situ
+		meta(charset="utf-8")
+		link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet")
+		link(href="/estatico/css/app.css" rel="stylesheet")
+		script(src="/socket.io/socket.io.js")
+		script(src="/estatico/js/handlebars.js")
+	body
+		nav(class="large-padding black white-text")
+			ul
+				li 
+					a(href="/app") Inicio
+				li 
+					a(href="/app/imagenes") Mis Imágenes
+				li 
+					a(href="/app/imagenes/new") Subir Imagen
+		block contenido

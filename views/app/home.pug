@@ -1,0 +1,17 @@
+extends ../layout.pug
+block contenido
+	div(id="imagenes")
+		for imagen in imagenes
+			div(class="img-container")
+				a(href="/app/imagenes/"+imagen._id)
+					h2 Título #{imagen.title}
+				img(src="/estatico/images/"+imagen.id+"."+imagen.extension class="main-img")
+				if(typeof imagen.creator != "undefined")
+					p Creador por #{imagen.creator.email}
+
+	script(id="image-template" type="text/x-handlebars-template")
+		div(class="img-container")
+			a(href="/app/imagenes/{{id}}")
+				h2 {{title}}
+			img(src="/estatico/images/{{id}}.{{extension}}" class="main-img")
+	script(src="/estatico/js/client.js")
