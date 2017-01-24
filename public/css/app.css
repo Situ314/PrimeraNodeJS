@@ -78,6 +78,7 @@ nav li{
 nav li a{
 	text-transform: uppercase;
 	color: white;
+	font-size:0.8em;
 }
 
 nav li a:hover{
