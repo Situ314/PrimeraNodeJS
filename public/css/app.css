@@ -60,19 +60,25 @@ img{
 }
 
 .left{
-	text-align: center;
 	font-size: 2em;
 	margin-right: 20px;
 }
-/*
+
 nav {
 	text-align: right;
 }
-*/
+
 nav li{
+	
 	display:inline-block;
 	margin-right: 1em;
 	font-size:1.3em;
+}
+
+nav li p{
+	text-align: left;
+	color: #b3c6ff;
+	font-size:0.8em;
 }
 
 nav li a{
